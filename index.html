@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="back"></div>
+    <div class="heading">
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <div class="container">
+            <button id="increment-btn" onclick="increment()">ADD 1</button>
+            <button id="increment-btn" onclick="increment5()">ADD 5</button>
+            <button id="increment-btn" onclick="increment10()">ADD 10</button>
+            <button id="increment-btn" onclick="incrementMinus()">REMOVE 1</button>
+            <button id="increment-btn" onclick="incrementMinus5()">REMOVE 5</button>
+            <button id="increment-btn" onclick="incrementMinus10()">
+          REMOVE 10
+        </button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+        </div>
+    </div>
+    <div class="display">Previous entries: <br /></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
